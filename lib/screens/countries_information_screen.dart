@@ -54,7 +54,7 @@ class _CountriesInformationScreenState
                           color: Theme
                               .of(context)
                               .accentColor,
-                          onPressed: () {},
+                          onPressed: () {_countriesInformationStore.loadCountriesInformation();},
                         )
                       ],
                     ),
