@@ -1,3 +1,4 @@
+import 'package:covid19_information_app/screens/about_screen.dart';
 import 'package:covid19_information_app/screens/countries_information_screen.dart';
 import 'package:covid19_information_app/screens/global_information_screen.dart';
 import 'package:flutter/material.dart';
@@ -12,7 +13,8 @@ class _MainTabScreenState extends State<MainTabScreen> {
   int _selectedIndex = 0;
   static List<Widget> _widgetOptionsScreen = <Widget>[
     GlobalInformationScreen(),
-    CountriesInformationScreen()
+    CountriesInformationScreen(),
+    AboutScreen()
   ];
 
 
